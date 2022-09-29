@@ -1,0 +1,84 @@
+html {
+  min-height: 100%;
+  position: relative;
+}
+body {
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.centrar {
+  text-align: center;
+}
+
+img {
+  width: 2em;
+  height: 2em;
+}
+
+.logo_principal {
+  width: 15em;
+  height: 16em;
+}
+
+.ordenar {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.ordenar > img {
+  width: 15em;
+  height: 16em;
+}
+
+h1 {
+  font-style: italic;
+  font-size: 5em;
+  font-weight: 2000;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+h2 {
+  font-size: 3.5em;
+}
+.destacar:hover {
+  font-size: 5em;
+}
+p {
+  font-size: 1.5em;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+.btn {
+  display: inline;
+  flex-wrap: wrap;
+
+  margin-bottom: 1em;
+}
+
+.darkMode {
+  background-color: black;
+  color: white;
+}
+
+.whiteMode {
+  background-color: rgba(213, 207, 207, 0.505);
+  color: black;
+}
+
+.circ {
+  border-radius: 180%;
+}
+
+.proximamente {
+  width: 15em;
+  height: 18rem;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+}
